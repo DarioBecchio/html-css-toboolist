@@ -5,7 +5,7 @@
 }
 :root{
     --bool-light: white;
-    --bool-gray: gray;
+    --bool-gray: rgb(238, 233, 233);
 }
 header{
     background-color: var(--bool-light);
@@ -15,5 +15,15 @@ header{
 body{
     background-color: var(--bool-gray);
 }
-
-
+.button_task{
+    background-color: aqua;
+}
+.el{
+    width: 80px;
+    height: 60px;
+}
+.title{
+    line-height: 150px;
+    vertical-align: middle;
+    display: inline-block;
+}
