@@ -3,3 +3,10 @@
     padding: 0;
     box-sizing: border-box;
 }
+:root{
+    --bool-light: white;
+    --bool-gray: gray;
+}
+.site_header{
+    
+}
