@@ -11,19 +11,38 @@ header{
     background-color: var(--bool-light);
     height: 150px;
     font-family: 'Roboto', sans-serif;
+    border-bottom: 20px;
 }
 body{
     background-color: var(--bool-gray);
 }
-.button_task{
-    background-color: aqua;
+.button{
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5%;
 }
+
 .el{
-    width: 80px;
-    height: 60px;
+    border: 1px solid rgb(57, 57, 182);
+    background-color:rgb(57, 57, 182) ;
 }
+
 .title{
     line-height: 150px;
     vertical-align: middle;
     display: inline-block;
+}
+.logo{
+    padding: 10px 20px;
+
+}
+.first{
+    width: 70%;
+    border-radius: 5%;
+    margin: auto;
+    background-color: var(--bool-light);
+    height: 50px;
+}  
+.second{
+    padding: 20px;
 }
