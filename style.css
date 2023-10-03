@@ -7,6 +7,13 @@
     --bool-light: white;
     --bool-gray: gray;
 }
-.site_header{
-    
+header{
+    background-color: var(--bool-light);
+    height: 150px;
+    font-family: 'Roboto', sans-serif;
 }
+body{
+    background-color: var(--bool-gray);
+}
+
+
