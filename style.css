@@ -18,7 +18,7 @@ body{
 }
 .button{
     padding: 5px 10px;
-    border: none;
+    border: 1px solid grey;
     border-radius: 5%;
 }
 
@@ -42,7 +42,49 @@ body{
     margin: auto;
     background-color: var(--bool-light);
     height: 50px;
+    margin-top: 30px;
 }  
-.second{
-    padding: 20px;
+.second {
+    vertical-align: middle;
+    line-height: 50px;
+}
+.block{
+    margin-left: 30px;
+}
+.third{
+    margin-top: 1px;
+}
+li{
+    list-style: none;
+    padding: 10px 0;
+}
+.circle ::before {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    margin: 10px;
+    display: inline-block;
+}
+.circle{
+    border-bottom: 1px solid white;
+}
+.circle_checked ::before{
+    content: '\2573';
+    border: 1px solid green;
+    color: green;
+
+}
+.circle_delete::before{
+    content: '\2573';
+    border: 1px solid red;
+    color: red;
+}
+.container{
+    padding: 5px 10px;
+    border: 1pz solid;
+    border-radius: 10%;
+    
+}
+.editorial{
+    background-color: blue;
 }
