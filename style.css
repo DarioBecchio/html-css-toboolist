@@ -24,12 +24,44 @@ header{
     display: inline-block;
 }
 .main{
-    width: 70px;
+    width: 70%;
     border-radius: 5%;
     background-color: white;
+    margin: auto;
      
 }
 .first{
-    line-height: ;
-
+    line-height: 50px;
+    border-bottom: solid 2px aliceblue;
+    padding: 0 50px;
+}
+.full{
+    background-color: blue;
+}
+.empty{
+    background-color: none;
+}
+.second{
+    padding: 20px 50px;
+}
+li{
+    list-style: none;
+}
+.circle{
+width: 15px;
+height: 15px;
+border-radius: 50%;
+border-color: green;
+line-height: 15px;
+font-size: 10px;
+text-align: center;
+display: inline-block;
+}
+.check{  
+    border: 1px solid green;
+    color: green;
+}
+.cross{
+    border: 1px solid red;
+    color: red; 
 }
