@@ -3,105 +3,33 @@
     padding: 0;
     box-sizing: border-box;
 }
-:root{
-    --bool-light: white;
-    --bool-gray: rgb(238, 233, 233);
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: aliceblue;
 }
 header{
-    background-color: var(--bool-light);
-    height: 150px;
-    font-family: 'Roboto', sans-serif;
-    border-bottom: 20px;
+    padding: 10px 20px;
+    height: 100px;
+    margin-bottom: 50px;
+    background-color: white;
 }
-body{
-    background-color: var(--bool-gray);
+.image{
+    height: 70px;
+    vertical-align: middle;
 }
-.button{
-    padding: 5px 10px;
-    border: 1px solid grey;
-    border-radius: 5%;
-}
-
-.el{
-    border: 1px solid rgb(57, 57, 182);
-    background-color:rgb(57, 57, 182) ;
-}
-
 .title{
-    line-height: 150px;
+    font-size: 40px;
+    font-weight: 900;
     vertical-align: middle;
     display: inline-block;
 }
-.logo{
-    padding: 10px 20px;
-
+.main{
+    width: 70px;
+    border-radius: 5%;
+    background-color: white;
+     
 }
 .first{
-    width: 70%;
-    border-radius: 5%;
-    margin: auto;
-    background-color: var(--bool-light);
-    height: 50px;
-    margin-top: 30px;
-}  
-.second {
-    vertical-align: middle;
-    line-height: 50px;
-}
-.block{
-    margin-left: 30px;
-    margin-bottom: 10px;
-}
-.third{
-    margin-top: 1px;
-}
-li{
-    list-style: none;
-    padding: 10px 0;
-}
-.circle ::before {
-    width: 15px;
-    height: 15px;
-    border-radius: 50%;
-    margin: 10px;
-    display: inline-block;
-}
-.circle{
-    border-bottom: 1px solid white;
-}
-.circle_checked ::before{
-    content: '\2573';
-    border: 1px solid green;
-    color: green;
+    line-height: ;
 
-}
-.circle_delete::before{
-    content: '\2573';
-    border: 1px solid red;
-    color: red;
-}
-.container{
-    padding: 5px 10px;
-    border: 1pz solid;
-    border-radius: 10%;
-    font-size: 10px;
-    
-}
-.editorial{
-    background-color: blue;
-}
-.q1{
-    background-color: blueviolet;
-}
-.recruiting{
-    background-color: darkgreen;
-}
-.mobile{
-    background-color: darkgoldenrod;
-}
-.website{
-    background-color: palevioletred;
-}
-.sales{
-    background-color: lightgreen;
 }
